@@ -27,7 +27,7 @@ ENV PATH ~/.pyenv/shims:~/.pyenv/bin:$PATH
 RUN echo 'eval "$(pyenv init -)"' >  ~/.bashrc
 #RUN echo 'eval "$(pyenv virtualenv-init -)"' > ~/.bashrc
 RUN pyenv install 2.7.8
-RUN pyenv install anaconda-2.0.1
+#RUN pyenv install anaconda-2.0.1
 
 
 
